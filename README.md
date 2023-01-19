@@ -12,7 +12,7 @@ The main goal of this project is to provide a simple to use Maven plugin that ge
 To use this Maven plugin in your project, you simply have to add the following code to your `pom.xml` file.
 ```xml
 <plugin>
-   <groupId>com.groupId</groupId>
+   <groupId>org.camunda.community.template.generator</groupId>
    <artifactId>template-generator-maven-plugin</artifactId>
    <version>1.0.0-SNAPSHOT</version>
    <executions>
@@ -23,7 +23,7 @@ To use this Maven plugin in your project, you simply have to add the following c
       </execution>
    </executions>
    <configuration>
-	  <schemaVersion>0.10.1</schemaVersion>
+      <schemaVersion>0.10.1</schemaVersion>
       <outputDir>example-output-directory</outputDir>
       <scanPackages>com.mypackage</scanPackages>
    </configuration>
