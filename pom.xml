@@ -12,13 +12,13 @@
   <name>${project.groupId}:${project.artifactId}</name>
   <description>Camunda modeler template generator core</description>
 
-  <!-- <scm>
-    <url>https://github.com/camunda-community-hub/maven-template</url>
-    <connection>scm:git:git@github.com:camunda-community-hub/maven-template.git</connection>
-    <developerConnection>scm:git:git@github.com:camunda-community-hub/maven-template.git
+  <scm>
+    <url>https://github.com/matthias-petri/camunda-modeler-template-generator</url>
+    <connection>scm:git:git@github.com:matthias-petri/camunda-modeler-template-generator.git</connection>
+    <developerConnection>scm:git:git@github.com:matthias-petri/camunda-modeler-template-generator.git
     </developerConnection>
     <tag>HEAD</tag>
-  </scm> -->
+  </scm>
   
   <modules>
     <module>template-generator-core</module>
